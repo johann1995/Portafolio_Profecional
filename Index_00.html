@@ -4,85 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV_JOHANN CHAVARRO GARCIA</title>
-    <link rel="stylesheet" src="Estilos_00.css" />
+
+    <link href="Estilos1.css" rel="stylesheet" />
     <!--conectar con clase de estilos-->
     <link rel="shortcut icon" href="Multimedia/img icono.ico" />
   </head>
   <!--inicio estructura html5-->
   <body>
-    <header>
-      <h1>Mi Nombre</h1>
-      <p>Teléfono: (+57) 3204049087 | Email: chavarrogarciajohann@gmail.com</p>
-    </header>
-    <!---->
-    <section class="section">
-      <h2>Perfil Profesional</h2>
-      <p>
-        Soy técnico en mantenimiento preventivo y correctivo de computadores y
-        actualmente estoy finiquitando la carrera profesional de Ingeniería de
-        Sistemas en la Universidad de la Amazonia. Me caracterizo por ser una
-        persona emprendedora, siento una fascinación por desarmar y armar
-        computadores con el fin de evaluar y ejecutar procesos de reparación,
-        del mismo tengo experiencia desarrollo de software. Tengo gran interés
-        permanente en seguir formándome profesionalmente en la implementación en
-        las nuevas tecnologías; proporciono la confianza y la preparación
-        necesaria para desempeñarme en el área o en el medio tecnológico.
-      </p>
+    <div class="container">
+      <div class="box_1">
+        <h3>CV PROFECIONAL</h3>
+
+        <h1>JOHANN CHAVARRO GARCIA</h1>
+        <h4>Desarrollador Full Stack</h4>
+        <br />
+        <br />
+        <br />
+
+        <button>CONTRATAME</button>
+        <button>EXPLORA MÀS</button>
+      </div>
+      <!--..........................-->
+      <div class="box_2">
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+        <br />
+        <br />
+        <br />
+        <div class="img_one">
+          <img src="Multimedia/sin_fondo.png" alt="una_img" />
+        </div>
+      </div>
+    </div>
+    <!--continuaciòn-->
+    <section class="info_uno">
+      <h1>ACERCA DE</h1>
+      <h2>______ - - ______</h2>
+      <br />
+      <div class="container_2">
+        <p>
+          Soy técnico en mantenimiento preventivo y correctivo de computadores y
+          actualmente estoy finiquitando la carrera profesional de Ingeniería de
+          Sistemas en la Universidad de la Amazonia. Me caracterizo por ser una
+          persona emprendedora, siento una fascinación por desarmar y armar
+          computadores con el fin de evaluar y ejecutar procesos de reparación.
+          Además, tengo experiencia en desarrollo de software.
+        </p>
+        <p>
+          Tengo un gran interés permanente en seguir formándome profesionalmente
+          en la implementación de las nuevas tecnologías. Creo que tengo la
+          confianza y la preparación necesaria para desempeñarme en el área o en
+          el medio tecnológico.
+        </p>
+      </div>
     </section>
-    <!---->
-    <section class="section">
-      <h2>Experiencia Laboral</h2>
-      <ul>
-        <li>
-          <strong>COLEGIO NUESTRA SEÑORA DEL PERPETUO SOCORRO</strong><br />
-          TÉCNICO EN SISTEMAS<br />
-          Fecha: Mes/Año de Inicio - Mes/Año de Término<br />
-          Descripción: Encargado de ejecutar los mantenimientos preventivos y
-          correctivo a más de 100 computadoras en diferentes arquitecturas,
-          instalación de programas básicos y complejos del sistema, sistemas
-          operativos, configuración de la red de área local, entre otras
-          funciones.
-        </li>
-      </ul>
+    <!--.......................-->
+    <section class="info_formulario">
+      <h1>CONTACTO</h1>
+      <h2>______ - - ______</h2>
+      <br />
+      <div class="container_4">
+        <div class="container">
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
     </section>
-    <!---->
-    <section class="section">
-      <h2>Educación</h2>
-      <ul>
-        <li>
-          <strong>SERVICIO NACIONAL DE APRENDIZAJE SENA</strong><br />
-          Título: TÉCNICO EN SISTEMAS<br />
-          Fecha: marzo/2011 - noviembre/2012<br />
-        </li>
-        <!-- Agrega más detalles de educación si es necesario -->
-      </ul>
-    </section>
-    <!---->
-    <section class="section">
-      <h2>Habilidadesn Personales</h2>
-      <ul>
-        <li>Facilidad de aprendizaje 1</li>
-        <li>Trabajar en equipo 2</li>
-        <li>Persona con retos  3</li>
-        <li>Espíritu de superación  4</li>
-        <li>Relaciones interpersonales  5</li>
-        <li>Aportar ideas y participar activamente  6</li>
-        <li>Solución de conflictos.  7</li>
-        <!-- Agrega más habilidades si es necesario -->
-      </ul>
-    </section>
-    <!---->
-    <section class="section">
-      <h2>Idiomas</h2>
-      <ul>
-        <li>Español 1: Nativo</li>
-        <!-- Agrega más idiomas si es necesario -->
-      </ul>
-    </section>
-    <!---->
-    <section class="section">
-      <h2>Referencias</h2>
-      <p>Disponibles a petición.</p>
-    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--pie de pagina-->
+    <footer>
+      <br />
+      <p>Correo Electrónico: chavarrogarciajohann@gmail.com</p>
+      <p>/ Teléfono: +57 3204049087 /</p>
+      <p>Dirección: Cll 36 29B-45 / Ciudadela, Florencia-Caquetá</p>
+    </footer>
   </body>
 </html>

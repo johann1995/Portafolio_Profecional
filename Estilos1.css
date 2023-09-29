@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 500px;
+}
+
+.box_1 {
+  width: 30%; /* Cada caja ocupa la mitad del ancho del contenedor */
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.box_1 h3{
+    color: #a30909;
+    text-align: left;
+}
+button{
+    background-color: #8c9094; /* Color de fondo del botón */
+    color: #000000; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 50px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave en el color de fondo al pasar el cursor */
+}
+button:hover{
+    background-color: #a30909; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 50px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave en el color de fondo al pasar el cursor */
+}
+
+
+
+
+/*columna dos*/
+
+
+
+.box_2 {
+    width: 50%; /* Cada caja ocupa la mitad del ancho del contenedor */
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(20, 5, 5, 0.2);
+}
+.box_2 .img_one img{
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen */
+}
+
+.navbar {
+    background-color:  transparent;
+    color: #fff;
+    text-align: center; /* Centrar el texto dentro del contenedor */
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {   
+    margin-right: 20px;
+    display: inline-block; /* Hacer que los elementos del menú sean bloques en línea */
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 150%;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+    color: #a30909;
+}
+/*...........css continuaciòn................*/
+section{
+    width: auto; /* Anchura de la sección */
+    height: 300px; /* Altura de la sección */
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    color: #000000;
+}
+section h1{
+    padding: auto;
+    height: 0px;
+    text-align: center;
+    color: #000000;
+}
+section h2{
+    height: 0px;
+    text-align: center;
+    color: #a30909;
+    
+}
+
+/*acerca de*/
+
+.container_2 {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    color: #000000;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*estilos formulario*/
+.container_4 {
+    max-width: 250px;
+    height: 350PX;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    text-align: center;
+}
+
+
+/*estilos footer*/
+footer {
+    background-color: #8c9094;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+
+
+
+
