@@ -60,6 +60,7 @@ button:hover{
 .box_2 .img_one img{
     width: 200px; /* Ancho de la imagen */
     height: auto; /* Alto de la imagen */
+    border-radius: 45%;
 }
 
 .navbar {
@@ -162,9 +163,7 @@ textarea {
     border-radius: 5px;
 }
 
-button {
-    text-align: center;
-}
+
 
 
 /*estilos footer*/
