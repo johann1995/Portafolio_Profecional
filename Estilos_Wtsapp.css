@@ -1,3 +1,4 @@
+/*estilos de boton wtsapp*/
 .float{
 	position:fixed;
 	width:60px;
@@ -15,9 +16,9 @@
 .float:hover {
 	text-decoration: none;
 	color: #25d366;
-  background-color:#c01010;
+  background-color:#000000;
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:17px;
 }
