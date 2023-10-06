@@ -98,10 +98,11 @@ footer .website-logo{
     background-position: center;
     margin-right: 1rem;
     background-repeat: no-repeat;
+    background-color: #034574;
 }
 
 .social-link:hover{
-    opacity: 0.7;
+    opacity: 0.5;
     color:#62a3d1;
 }
 

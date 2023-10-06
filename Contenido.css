@@ -41,17 +41,60 @@ h1{
 	line-height: 2rem;
 	text-align: justify;
 }
-.btnBanner{
-	background: #034574;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 25px;
+
+
+
+
+
+.main-button{
+    height: 80px;
+    width: 250px;
+	border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #011e33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     text-decoration: none;
 }
-.btnBanner:hover{
-	background: #011e33;
-   
+
+.main-button::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#001829, #cc6300);
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(50% 80%, 100% 100%, 100% 100%, 0 100%, 0 100%);
+    z-index: -1;
+    transition: 0.5s;
 }
+
+.main-button:hover::before{
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.main-button:hover{
+    box-shadow: 0px 0px 32px #62a3d1;
+}
+
+.main-button span{
+    font-size: 40px;
+    color: #034574;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
 
 /*SERVICIOS*/
 .services{
