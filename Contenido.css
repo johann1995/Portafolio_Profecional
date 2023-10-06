@@ -2,23 +2,8 @@ main{
 width: 100%;
 
 }
-header{
-	width: 90%;
-	margin: 0 auto;
-	display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-.derecha{
-	text-align: center;
-}
-.btnPhone{
-	background: #393939;
-    color: #fefefe;
-    text-decoration: none;
-    border-radius: 25px;
-    padding: 10px 15px;
-}
+
+
 section.banner{
 	background: linear-gradient(to left, rgb(146, 146, 146), rgb(255, 255, 255));
 	padding: 3rem 0;
@@ -67,6 +52,7 @@ h1{
 	background: #011e33;
    
 }
+
 /*SERVICIOS*/
 .services{
 	padding: 3rem 0;
