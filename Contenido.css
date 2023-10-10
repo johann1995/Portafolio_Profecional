@@ -113,6 +113,7 @@ h1{
 	grid-gap: 1.2rem;
 }
 .boxS{
+	background: linear-gradient(to left, rgb(167, 183, 219), rgb(255, 255, 255));
 	padding: 2rem 2rem;
 	display: flex;
 	flex-direction: column;
@@ -122,11 +123,29 @@ h1{
 }
 .boxS img{ 
 	width: 100px;
+	border-radius: 100%;
 }
 h3{
 	color: #4c4c4c;
 	margin: 10px 0;
+	text-align: center;
 }
 .boxS p{
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
