@@ -1,0 +1,24 @@
+[
+    {
+        "nombre": "johann",
+        "apellidos": "chavarro garcia",
+        "nacionalidad": "colombiana",
+        "edad": 28,
+        "municipios": [
+            "paujil",
+            "la montañita",
+            "cartagena"
+        ]
+    },
+    {
+        "nombre": "camila",
+        "apellidos": "vargas ramirez",
+        "nacionalidad": "colombiana",
+        "edad": 25,
+        "municipios": [
+            "paujil",
+            "la montañita",
+            "cartagena","florencia"
+        ]
+    }
+]
