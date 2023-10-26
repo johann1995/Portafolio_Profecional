@@ -114,6 +114,11 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
     background-image: url(icons/LinkedinBlanco.png);
 }
 
+h4{
+    color: #797878;
+   
+}
+
 
 /*MEDIA QUERY*/
 @media (max-width: 768px){
