@@ -1,24 +1,29 @@
-[
-    {
-        "nombre": "johann",
-        "apellidos": "chavarro garcia",
-        "nacionalidad": "colombiana",
-        "edad": 28,
-        "municipios": [
-            "paujil",
-            "la montañita",
-            "cartagena"
+{
+    "header": {
+        "h1": "[Tu Nombre]",
+        "p": "Programador Web"
+    },
+    "nav": {
+        "links": [
+            { "href": "#sobre-mi", "text": "Sobre Mí" },
+            { "href": "#proyectos", "text": "Proyectos" }
         ]
     },
-    {
-        "nombre": "camila",
-        "apellidos": "vargas ramirez",
-        "nacionalidad": "colombiana",
-        "edad": 25,
-        "municipios": [
-            "paujil",
-            "la montañita",
-            "cartagena","florencia"
-        ]
-    }
-]
+    "sections": [
+        {
+            "id": "sobre-mi",
+            "h2": "Sobre Mí",
+            "p": "Breve descripción sobre ti y tus habilidades como programador."
+        },
+        {
+            "id": "proyectos",
+            "h2": "Proyectos",
+            "p": "Aquí puedes listar algunos de tus proyectos destacados, con enlaces y descripciones."
+        },
+        {
+            "id": "contacto",
+            "h2": "Contacto",
+            "p": "Puedes proporcionar información de contacto, como tu dirección de correo electrónico, perfiles de redes sociales, etc."
+        }
+    ]
+}
